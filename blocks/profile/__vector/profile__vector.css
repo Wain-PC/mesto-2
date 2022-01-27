@@ -1,0 +1,6 @@
+@media screen and (min-width: 767px) {
+.profile__vector {
+    width: 10px;
+    height: 10px;
+}
+}

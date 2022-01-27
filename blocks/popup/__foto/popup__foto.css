@@ -1,0 +1,6 @@
+.popup__foto {
+    display: flex;
+    flex-direction: column;
+    max-width: 75vw;
+    max-height: 1104px;
+}

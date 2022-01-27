@@ -1,0 +1,26 @@
+.popup__container-exit {
+    position: absolute;
+    top: -30px;
+    right: 0;
+    background-color: transparent;
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+    background-image: url(../../../images/Close\ Icon.png);
+    padding: 0;
+    border: none;
+    cursor: pointer;
+}
+
+.popup__container-exit:hover {
+    opacity: 0.6;
+}
+
+@media screen and (min-width: 767px) {
+    .popup__container-exit {
+        width: 32px;
+        height: 32px;
+        top: -36px;
+        right: -40px;
+    }
+}

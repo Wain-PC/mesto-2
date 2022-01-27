@@ -1,0 +1,10 @@
+.foto__title {
+    margin: 0;
+    font-size: 24px;
+    font-weight: 900;
+    font-family: 'Inter', Arial, sans-serif;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: 29px;
+}

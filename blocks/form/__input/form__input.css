@@ -1,0 +1,21 @@
+.form__input {
+    font-size: 14px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 400;
+    border: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    margin-top: 75px;
+    padding-bottom: 12px;
+}
+
+.form__input:last-of-type {
+    margin-top: 0;
+    margin-bottom: 45px;
+}
+
+@media screen and (min-width: 767px) {
+    .form__input {
+        margin-top: 54px;
+    }
+}

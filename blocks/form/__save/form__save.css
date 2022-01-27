@@ -1,0 +1,22 @@
+.form__save {
+    border: 0;
+    border-radius: 2px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 14px 0;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.form__save:hover {
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 767px) {
+    .form__save {
+        font-size: 18px;
+        padding-bottom: 18px;
+    }
+}

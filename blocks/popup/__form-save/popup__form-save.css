@@ -1,0 +1,22 @@
+.popup__form-save {
+    border: 0;
+    border-radius: 2px;
+    font-family: 'Inter', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 14px 0;
+    background-color: #000000;
+    cursor: pointer;
+}
+
+.popup__form-save:hover {
+    opacity: 0.8;
+}
+
+@media screen and (min-width: 767px) {
+    .popup__form-save {
+        font-size: 18px;
+        padding-bottom: 18px;
+    }
+}

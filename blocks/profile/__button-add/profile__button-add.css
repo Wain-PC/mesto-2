@@ -1,0 +1,23 @@
+.profile__button-add {
+    width: 282px;
+    min-height: 50px;
+    border: 2px solid white;
+    border-radius: 2px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 36px auto;
+}
+
+.profile__button-add:hover {
+    cursor: pointer;
+    opacity: 0.6;
+}
+
+@media screen and (min-width: 767px) {
+    .profile__button-add {
+        width: 150px;
+        margin-right: 0;
+    }
+}

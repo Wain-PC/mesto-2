@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Mesto</title>
+    <script src="./script/script.js" defer></script>
+</head>
+
+<body class="page">
+    <header class="header">
+        <img class="header__logo" src="./images/logo.svg" alt="Логотип">
+    </header>
+    <main>
+        <section class="profile">
+            <img class="profile__avatar" src="./images/Avatar.png" alt="Аватар">
+            <section class="profile__info">
+                <section class="profile__edit">
+                    <h1 class="profile__title" id="profile__title">Жак-Ив Кусто</h1>
+                    <button class="profile__edit-button" type="button">
+                        <img class="profile__vector" src="./images/Vector.png" alt="Редактирование">
+                    </button>
+                </section>
+                <h2 class="profile__subtitle" id="profile-subtitle">Исследователь океана</h2>
+            </section>
+            <button class="profile__button-add" type="button">
+                <img class="profile__plus" src="./images/plus.png" alt="Плюс">
+            </button>
+        </section>
+        <template class="fotos">
+            <div class="foto">
+                <img class="foto__image">
+                <button class="foto__delete" type="button"></button>
+                <div class="foto__info">
+                    <p class="foto__title"></p>
+                    <button class="foto__like" type="button"></button>
+                </div>
+            </div>
+        </template>
+    </main>
+    <footer class="footer">
+        <p class="footer__copyright">© 2020 Mesto Russia</p>
+    </footer>
+    <div class="popup" id="popup-profile">
+        <div class="popup__container">
+            <form class="form" name="form-edit">
+                <h2 class="form__title">Редактировать профиль</h2>
+                <input class="form__input form__input_profile_name" type="text" name="name" value="Жак-Ив Кусто" placeholder="Введите имя" required>
+                <input class="form__input form__input_profile_subname" type="text" name="subname" value="Исследователь океана" placeholder="Введите описание" required>
+                <button class="form__save" type="submit">Сохранить</button>
+            </form>
+            <button class="popup__container-exit" type="button"></button>
+        </div>
+    </div>
+    <div class="popup" id="add-picture">
+        <div class="popup__container">
+            <form class="popup__form-add" name="form-add" id="form-add">
+                <h2 class="popup__form-title">Новое место</h2>
+                <input id="namePicture" class="popup__form-input" type="text" name="name" value="" placeholder="Название" required>
+                <input id="linkPicture" class="popup__form-input" type="text" name="link" value="" placeholder="Ссылка на картинку" required>
+                <button class="popup__form-save" type="submit">Создать</button>
+            </form>
+            <button class="popup__container-exit" id="add-card-exit" type="button"></button>
+        </div>
+    </div>
+    <div class="popup" id="popup-fullsize">
+        <div class="popup__foto">
+            <button class="popup__picture-close" id="close-fullsize" type="button"></button>
+            <img class="popup__picture" src="#" alt="#">
+            <p class="popup__picture-name"></p>
+        </div>
+    </div>
+</body>
+
+</html>

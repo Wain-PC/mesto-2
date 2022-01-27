@@ -1,0 +1,14 @@
+.foto__image {
+    width: 282px;
+    height: 282px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    transition: opacity 1s linear .1s;
+    overflow: hidden;
+    box-sizing: border-box;
+    object-fit: cover;
+}
+
+.foto__image:hover {
+    cursor: pointer;
+}

@@ -1,0 +1,23 @@
+.fotos {
+    display: grid;
+    justify-content: center;
+    row-gap: 20px;
+    column-gap: 17px;
+    margin: 0 auto;
+}
+
+@media screen and (min-width: 767px) {
+    .fotos {
+        grid-template-columns: 1fr 1fr;
+        justify-items: center;
+        width: 581px;
+        margin-top: 50px;
+    }
+}
+
+@media screen and (min-width: 1023px) {
+    .fotos {
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 880px;
+    }
+}

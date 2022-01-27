@@ -1,0 +1,19 @@
+.foto__like {
+    background-image: url(../../../images/Vector2.png);
+    width: 22px;
+    height: 19px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    background-color: transparent;
+    /*box-sizing: border-box;*/
+    background-size: contain;
+    transition: 0.5s ease;
+}
+
+.foto__like:hover {
+    cursor: pointer;
+    opacity: 50%;
+}
